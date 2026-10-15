@@ -26,4 +26,5 @@ public class Tasks {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="employee_id",nullable = true)
     private Employee employee;
+
 }
